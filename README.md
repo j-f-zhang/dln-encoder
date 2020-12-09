@@ -58,69 +58,39 @@ Here is what they found:
 
 7) The last character is the code for the day of the month on which the individaul was born. The day-of-month-born code is presented in the table below.
 
-| Day | Code |
-| --- | ---- |
-|  1  |   A  |
-|  2  |   B  |
-|  3  |   C  |
-|  4  |   D  |
-|  5  |   E  |
-|  6  |   F  |
-|  7  |   G  |
-|  8  |   H  |
-|  9  |   Z  |
-|  10 |   S  |
-|  11 |   J  |
-|  12 |   K  |
-|  13 |   L  |
-|  14 |   M  |
-|  15 |   N  |
-|  16 |   W  |
-|  17 |   P  |
-|  18 |   Q  |
-|  19 |   R  |
-|  20 |   O  |
-|  21 |   1  |
-|  22 |   2  |
-|  23 |   3  |
-|  24 |   4  |
-|  25 |   5  |
-|  26 |   2  |
-|  27 |   7  |
-|  28 |   8  |
-|  29 |   9  |
-|  30 |   T  |
-|  31 |   U  |
-
-| Character | Code |
-| --------- | ---- |
-| *         |   0  |
-| A         |   1  |
-| B         |   2  |
-| C         |   3  |
-| D         |   4  |
-| E         |   5  |
-| F         |   6  |
-| G         |   7  |
-| H         |   8  |
-| I         |   9  |
-| J         |   1  |
-| K         |   2  |
-| L         |   3  |
-| M         |   4  |
-| N         |   5  |
-| O         |   6  |
-| P         |   7  |
-| Q         |   8  |
-| R         |   9  |
-| S         |   2  |
-| T         |   3  |
-| U         |   4  |
-| V         |   5  |
-| W         |   6  |
-| X         |   7  |
-| Y         |   8  |
-| Z         |   9  |
+|Day|Code|
+|---|----|
+|1|A|
+|2|B|
+|3|C|
+|4|D|
+|5|E|
+|6|F|
+|7|G|
+|8|H|
+|9|Z|
+|10|S|
+|11|J|
+|12|K|
+|13|L|
+|14|M|
+|15|N|
+|16|W|
+|17|P|
+|18|Q|
+|19|R|
+|20|O|
+|21|1|
+|22|2|
+|23|3|
+|24|4|
+|25|5|
+|26|2|
+|27|7|
+|28|8|
+|29|9|
+|30|T|
+|31|U|
 
 ## The Check Digit Scheme:
 
@@ -131,6 +101,36 @@ The check digit a10 is created by first assigning digits to the non-digit charac
 ```
 a10 = |a1-a2+a3-a4+a5-a6+a7-a8+a9-a11+a12| (mod 10)
 ```
+
+|Character|Digit|
+|---------|----|
+|*|0|
+|A|1|
+|B|2|
+|C|3|
+|D|4|
+|E|5|
+|F|6|
+|G|7|
+|H|8|
+|I|9|
+|J|1|
+|K|2|
+|L|3|
+|M|4|
+|N|5|
+|O|6|
+|P|7|
+|Q|8|
+|R|9|
+|S|2|
+|T|3|
+|U|4|
+|V|5|
+|W|6|
+|X|7|
+|Y|8|
+|Z|9|
 
 ## Examples:
 |Driver Information|License Number|
