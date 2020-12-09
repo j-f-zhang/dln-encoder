@@ -7,6 +7,8 @@ For a long time, the state of Washington used an algorithm (explained below) to 
 
 You will be creating a "drivers license calculator" to generate the DLN given someone's name and birth date.
 
+Use your knowledge of javascript to fill in the stubbed methods in `src/index.ts`.
+
 ## The Algorithm
 
 Thankfully, since Marist college published the algorithm many moons ago, we do not have to derive this algorithm ourselves!
