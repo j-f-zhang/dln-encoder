@@ -97,7 +97,7 @@ Consider the twelve character Washington State/Manitoba Province driver's licens
 
 The check digit a10 is created by first assigning digits to the non-digit characters in the identification number using the table below and then performing the following calculation:
 
-a10 = |a<sub>1</sub>-a<sub>2</sub>+a<sub>3</sub>-a<sub>4</sub>+a<sub>5</sub>-a<sub>6</sub>+a<sub>7</sub>-a<sub>8</sub>+a<sub>9</sub>-a<sub>11</sub>+a<sub>12</sub>| (mod 10)
+a<sub>10</sub> = |a<sub>1</sub>-a<sub>2</sub>+a<sub>3</sub>-a<sub>4</sub>+a<sub>5</sub>-a<sub>6</sub>+a<sub>7</sub>-a<sub>8</sub>+a<sub>9</sub>-a<sub>11</sub>+a<sub>12</sub>| (mod 10)
 
 |Character|Digit|
 |---------|----|
