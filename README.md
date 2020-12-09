@@ -93,7 +93,7 @@ Here is what they found:
 
 ## The Check Digit Scheme:
 
-Consider the twelve character Washington State/Manitoba Province driver's license number a1a2a3a4a5a6a7a8a9a10a11a12.
+Consider the twelve character Washington State/Manitoba Province driver's license number a<sub>1</sub>a2a3a4a5a6a7a8a9a10a11a12.
 
 The check digit a10 is created by first assigning digits to the non-digit characters in the identification number using the table below and then performing the following calculation:
 
