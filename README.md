@@ -1,4 +1,4 @@
-# dln-encoder
+# Driver's License Number Encoder
 
 ## Objective
 
