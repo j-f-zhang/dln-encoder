@@ -128,16 +128,6 @@ Here is what they found:
 | Y         |   8  |
 | Z         |   9  |
 
-Examples:
-Driver Information	License Number
-Joseph Marshall Pollan 	POLLAJM304PR
-Born: October 19, 1970	
-Tracy Holland 	HOLLAT*554J5
-Born: April 25, 1945	
-Alexander William Moe	MOE**AW240MD
-Born: July 4, 1976	
- 
-
 ## The Check Digit Scheme:
 
 Consider the twelve character Washington State/Manitoba Province driver's license number a1a2a3a4a5a6a7a8a9a10a11a12.
@@ -147,5 +137,14 @@ The check digit a10 is created by first assigning digits to the non-digit charac
 ```
 a10 = |a1-a2+a3-a4+a5-a6+a7-a8+a9-a11+a12| (mod 10)
 ```
+
+## Examples:
+|Driver Information|License Number|
+|---|---|
+|Joseph Marshall Pollan: October 19, 1970|POLLAJM304PR|
+|Tracy Holland: April 25, 1945|HOLLAT*554J5|
+|Alexander William Moe: July 4, 1976|MOE**AW240MD|
+	
+ 
 
 
