@@ -28,10 +28,9 @@ This repository contains a very simple web page. It doesn't work right now, but 
 
 ## The Algorithm
 
-Thankfully, since Marist college published the algorithm many moons ago, we do not have to derive this algorithm ourselves!
+Thankfully, since Marist college [published the algorithm](http://web.archive.org/web/20061206063841/http://www.academic.marist.edu/mwa/wsdln.htm) long ago, we do not have to derive this algorithm ourselves!
 
 Here is what they found:
-( From http://web.archive.org/web/20061206063841/http://www.academic.marist.edu/mwa/wsdln.htm )
 
 1) The first five characters are the first five letters of the individual's surname (last name). If an individual's last name contains 4 or fewer letters, the symbol * is used to fill in the remaining spaces.
 2) The sixth character is the individual's first initial.
