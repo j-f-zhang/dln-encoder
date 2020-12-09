@@ -43,23 +43,23 @@ Here is what they found:
 2) The sixth character is the individuals first initial.
 3) The seventh character is the individuals middle initial. The symbol * is used if an individual does not have a middle name.
 4) The next two characters are obtained by computing subtracting the individuals year-of-birth (YOB) from 100. In other words, 100 - YOB.
-5) The tenth character is the check digit.
-6) The eleventh character is the month-of-birth code. It assigns a character according to the code presented in the table below. The alternate codes are used to avoid collisions.
+5) The tenth character is the [check digit](#The-Check-Digit-Scheme). (To be calculated after all other characters are found.)
+6) The eleventh character is the month-of-birth code. It assigns a character according to the code presented in the table below. (The alternate codes are used to avoid collisions in the case two individuals end up with the same driver's license number -- but don't worry about this during our lesson today!)
 
-| Month     | Code | Alternate Code
-| --------- | ----- |---------------|
-|January	|  B	|  S            |
-|February	|  C	|  T            |
-|March	    |  D	|  U            |
-|April	    |  J	|  1            |
-|May	    |  K	|  2            |
-|June	    |  L	|  3            |
-|July	    |  M	|  4            |
-|August 	|  N	|  5            |
-|Septebmer	|  O	|  6            |
-|October	|  P	|  7            |
-|November	|  Q	|  8            |
-|December	|  R	|  9            |
+|Month|Code|Alternate Code|
+|---------|-----|---------------|
+|January|B|S|
+|February|C|T|
+|March|D|U|
+|April|J|1|
+|May|K|2|
+|June|L|3|
+|July|M|4|
+|August|N|5|
+|Septebmer|O|6|
+|October|P|7|
+|November|Q|8|
+|December|R|9|
 
 
 7) The last character is the code for the day of the month on which the individaul was born. The day-of-month-born code is presented in the table below.
@@ -138,7 +138,7 @@ Alexander William Moe	MOE**AW240MD
 Born: July 4, 1976	
  
 
-The Check Digit Scheme:
+## The Check Digit Scheme:
 
     Consider the twelve character Washington State/Manitoba Province
 driver's license number a1a2a3a4a5a6a7a8a9a10a11a12. 
