@@ -1,11 +1,18 @@
 # dln-encoder
 
 
-The following is from http://web.archive.org/web/20061206063841/http://www.academic.marist.edu/mwa/wsdln.htm
+## Objective
 
+For a long time, the state of Washington used an algorithm (explained below) to generate driver's license numbers derived from a driver's name and date of birth.
 
-     The state of Washington uses a twelve character identification number system to for its drivers licenses.
+You will be creating a "drivers license calculator" to generate the DLN given someone's name and birth date.
 
+## The Algorithm
+
+Thankfully, since Marist college published the algorithm many moons ago, we do not have to derive this algorithm ourselves!
+
+Here is what they found:
+( From http://web.archive.org/web/20061206063841/http://www.academic.marist.edu/mwa/wsdln.htm )
 
 1) The first five characters are the first five letters of the individuals surname (last name). If an individuals last name contains 4 or fewer letters, the symbol * is used to fill in the remaining spaces.
 2) The sixth character is the individuals first initial.
