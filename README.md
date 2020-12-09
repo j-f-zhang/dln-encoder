@@ -33,10 +33,10 @@ Thankfully, since Marist college published the algorithm many moons ago, we do n
 Here is what they found:
 ( From http://web.archive.org/web/20061206063841/http://www.academic.marist.edu/mwa/wsdln.htm )
 
-1) The first five characters are the first five letters of the individuals surname (last name). If an individuals last name contains 4 or fewer letters, the symbol * is used to fill in the remaining spaces.
-2) The sixth character is the individuals first initial.
-3) The seventh character is the individuals middle initial. The symbol * is used if an individual does not have a middle name.
-4) The next two characters are obtained by computing subtracting the individuals year-of-birth (YOB) from 100. In other words, 100 - YOB.
+1) The first five characters are the first five letters of the individual's surname (last name). If an individual's last name contains 4 or fewer letters, the symbol * is used to fill in the remaining spaces.
+2) The sixth character is the individual's first initial.
+3) The seventh character is the individual's middle initial. The symbol * is used if an individual does not have a middle name.
+4) The next two characters are obtained by computing subtracting the individual's year-of-birth (YOB) from 100. In other words, 100 - YOB.
 5) The tenth character is the [check digit](#The-Check-Digit-Scheme). (To be calculated after all other characters are found.)
 6) The eleventh character is the month-of-birth code. It assigns a character according to the code presented in the table below. (The alternate codes are used to avoid collisions in the case two individuals end up with the same driver's license number -- but don't worry about this during our lesson today!)
 
