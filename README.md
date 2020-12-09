@@ -1,5 +1,22 @@
 # dln-encoder
 
+## Getting started
+
+This repository contains a very simple web page. It doesn't work right now, but by the end of the lesson, you will have a functioning drivers license number (DLN) encoder!
+
+To download the source code, find "Download ZIP" in the "Code" dropdown.
+
+Extract your zip file into your working folder -- `C://src/dln-encoder-main`.
+
+If you don't already have a preferred text editor, download Visual Studio Code for your machine [here](https://code.visualstudio.com/download).
+
+Use your text editor to open the `dln-encoder-main` folder.
+
+Open a web browser (you will be using this for verifying your work throughout the lesson).
+
+Type the location of your index file `C://src/dln-encoder-main/src/index.html` into the browser.
+
+Make sure you can see a form with name and birthday input, and a "submit" button. (Don't panic!Your submit button shouldn't do anything yet. :) )
 
 ## Objective
 
