@@ -16,7 +16,7 @@ Open a web browser (you will be using this for verifying your work throughout th
 
 Type the location of your index file `C://src/dln-encoder-main/src/index.html` into the browser.
 
-Make sure you can see a form with name and birthday input, and a "submit" button. (Don't panic!Your submit button shouldn't do anything yet. :) )
+Make sure you can see a form with name and birthday input, and a "submit" button. (Don't panic! Your submit button shouldn't do anything yet. :) )
 
 ## Objective
 
