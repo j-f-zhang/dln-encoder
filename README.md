@@ -1,5 +1,11 @@
 # dln-encoder
 
+## Objective
+
+For a long time, the state of Washington used an [algorithm](## The Algorithm) to generate driver's license numbers derived from a driver's name and date of birth.
+
+You will be creating a "drivers license calculator" to generate the DLN given someone's name and birth date.
+
 ## Getting started
 
 This repository contains a very simple web page. It doesn't work right now, but by the end of the lesson, you will have a functioning drivers license number (DLN) encoder!
@@ -17,12 +23,6 @@ Open a web browser (you will be using this for verifying your work throughout th
 Type the location of your index file `C://source/dln-encoder-main/src/index.html` into the browser.
 
 Make sure you can see a form with name and birthday input, and a "submit" button. (Don't panic! Your submit button shouldn't do anything yet. :) )
-
-## Objective
-
-For a long time, the state of Washington used an algorithm (explained below) to generate driver's license numbers derived from a driver's name and date of birth.
-
-You will be creating a "drivers license calculator" to generate the DLN given someone's name and birth date.
 
 Use your knowledge of javascript to fill in the stubbed methods in `src/index.html`.
 
