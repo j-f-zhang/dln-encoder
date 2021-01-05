@@ -2,8 +2,6 @@
 
 ## Objective
 
-For a long time, the state of Washington used an [algorithm](#the-algorithm) to generate driver's license numbers (DLN) derived from a driver's name and date of birth.
-
 You will be creating a "drivers license calculator" to generate the DLN given someone's name and birth date.
 
 ## Getting started
