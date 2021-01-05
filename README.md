@@ -2,7 +2,7 @@
 
 ## Objective
 
-You will be creating a "drivers license calculator" to generate the DLN given someone's name and birth date.
+You will be creating a "driver's license calculator" to generate the DLN given someone's name and birth date.
 
 ## Getting started
 
