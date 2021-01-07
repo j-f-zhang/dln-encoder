@@ -1,16 +1,17 @@
 <html>
 
 <label for="firstName">First name</label>
-<input id="firstName" placeholder="Jane" type="text" />
+<input id="firstName" type="text" />
 <br />
 <label for="middleName">Middle name</label>
-<input id="middleName" placeholder="Marie" type="text" />
+<input id="middleName" type="text" />
 <br />
 <label for="lastName">Last name</label>
-<input id="lastName" placeholder="Doe" type="text" />
+<input id="lastName" type="text" />
 <br />
 <label for="birthMonth">Month</label>
 <select id="birthMonth">
+    <option value="0">Select a month</option>
     <option value="1">January</option>
     <option value="2">February</option>
     <option value="3">March</option>
@@ -36,31 +37,76 @@
 </html>
 <script>
     function computeLicenseNumber() {
-        let DLN = "Welcome to Javascript!";
-        alert(DLN);
+        let dln = "Welcome to Javascript!";
+        alert(dln);
     }
 
     function getFirstInitial(name) {
-        // add your code here
+        return "F";
+    }
+
+    function getMiddleInitial(name) {
+        return "M";
     }
 
     function encodeLastName(name) {
-       // add your code here
+        return "L****";
     }
 
     function encodeYear(year) {
-        // return encoded year
+        return "YY";
     }
 
     function encodeMonth(month) {
-       // add your code here
+        return "M";
     }
 
     function encodeDay(day) {
-       // add your code here
+        return "D";
     }
 
-    function checkSum(blob) {
-       // add your code here
-       }
+    function getCheckSum(last, first, middle, year, month, day) {
+        return 0;
+    }
+    
+    function convertToDigit(character) {
+        let convertedDigit;
+        let digitLookup = {
+            "*": "0",
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5",
+            "F": "6",
+            "G": "7",
+            "H": "8",
+            "I": "9",
+            "J": "1",
+            "K": "2",
+            "L": "3",
+            "M": "4",
+            "N": "5",
+            "O": "6",
+            "P": "7",
+            "Q": "8",
+            "R": "9",
+            "S": "2",
+            "T": "3",
+            "U": "4",
+            "V": "5",
+            "W": "6",
+            "X": "7",
+            "Y": "8",
+            "Z": "9"
+        }
+
+        if (isNaN(character)) {
+            convertedDigit = digitLookup[character.toUpperCase()];
+        }
+        else {
+            convertedDigit = character;
+        }
+        return Number(convertedDigit);
+    }
 </script>
