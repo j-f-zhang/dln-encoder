@@ -1,14 +1,12 @@
-# dln-encoder
+# Driver's License Number Encoder
 
 ## Objective
 
-For a long time, the state of Washington used an [algorithm](#the-algorithm) to generate driver's license numbers derived from a driver's name and date of birth.
-
-You will be creating a "drivers license calculator" to generate the DLN given someone's name and birth date.
+You will be creating a "driver's license calculator" to generate the DLN given someone's name and birth date.
 
 ## Getting started
 
-This repository contains a very simple web page. It doesn't work right now, but by the end of the lesson, you will have a functioning drivers license number (DLN) encoder!
+This repository contains a very simple web page. It doesn't work right now, but by the end of the lesson, you will have a functioning drivers license number encoder!
  
 1. To download the source code, find "Download ZIP" in the "Code" dropdown.
 
@@ -95,11 +93,9 @@ Here is what they found:
 
 Consider the twelve character Washington State/Manitoba Province driver's license number a<sub>1</sub>a<sub>2</sub>a<sub>3</sub>a<sub>4</sub>a<sub>5</sub>a<sub>6</sub>a<sub>7</sub>a<sub>8</sub>a<sub>9</sub>a<sub>10</sub>a<sub>11</sub>a<sub>12</sub>.
 
-The check digit a10 is created by first assigning digits to the non-digit characters in the identification number using the table below and then performing the following calculation:
+The check digit a<sub>10</sub> is created by first assigning digits to the non-digit characters in the identification number using the table below and then performing the following calculation:
 
-```
-a10 = |a1-a2+a3-a4+a5-a6+a7-a8+a9-a11+a12| (mod 10)
-```
+a<sub>10</sub> = |a<sub>1</sub>-a<sub>2</sub>+a<sub>3</sub>-a<sub>4</sub>+a<sub>5</sub>-a<sub>6</sub>+a<sub>7</sub>-a<sub>8</sub>+a<sub>9</sub>-a<sub>11</sub>+a<sub>12</sub>| (mod 10)
 
 |Character|Digit|
 |---------|----|
