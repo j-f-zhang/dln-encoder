@@ -6,20 +6,32 @@
             alert("Welcome to Javascript!");
         }
 
-        function computeLicenseNumber() {
-            let dln;
+        function showEncodedLicenseNumber() {
+
+            // This section declares and assigns variables from the user input
+            const lastName = document.getElementById("lastName").value.toUpperCase();
+            const firstName = document.getElementById("firstName").value.toUpperCase();
+            const middleName = document.getElementById("middleName").value.toUpperCase();
+            const birthDay = document.getElementById("birthDay").value;
+            const birthMonth = document.getElementById("birthMonth").value;
+            const birthYear = document.getElementById("birthYear").value;
+
+            // declare the variable dln: you will need to assign this variable.
+            var dln;
+
+            // Alert the user of the encoded driver's license number
             alert(dln);
         }
 
-        function getFirstInitial(name) {
+        function getFirstInitial(firstName) {
             return "F";
         }
 
-        function getMiddleInitial(name) {
+        function getMiddleInitial(middleName) {
             return "M";
         }
 
-        function encodeLastName(name) {
+        function encodeLastName(lastName) {
             return "L****";
         }
 
@@ -40,8 +52,8 @@
         }
 
         function convertToDigit(character) {
-            let convertedDigit;
-            let digitLookup = {
+            var convertedDigit;
+            var digitLookup = {
                 "*": "0",
                 "A": "1",
                 "B": "2",
