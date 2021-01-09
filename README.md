@@ -1,8 +1,8 @@
 # Driver's License Number Encoder
 
-## Objective
+## About
 
-You will be creating a "driver's license calculator" to generate the DLN given someone's name and birth date.
+Up until [as recently as 2018](https://www.king5.com/article/news/local/washington-drivers-license-numbers-change-tuesday/281-587296223), Washington state issued driver's license numbers based on the driver's name and birthdate. The algorithm was widely known and had the potential for abuse: if you knew someone's name and date of birth, you could get their license number! Thankfully, it's now a secure randomly generated number, but let's use their algorithm as a basis for exploring some concepts in JavaScript!
 
 ## Getting started
 
