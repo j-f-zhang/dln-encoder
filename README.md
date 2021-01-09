@@ -89,7 +89,7 @@ Here is what they found:
 |30|T|
 |31|U|
 
-## The Check Digit Scheme:
+## The Check Digit Scheme
 
 Consider the twelve character Washington State/Manitoba Province driver's license number a<sub>1</sub>a<sub>2</sub>a<sub>3</sub>a<sub>4</sub>a<sub>5</sub>a<sub>6</sub>a<sub>7</sub>a<sub>8</sub>a<sub>9</sub>a<sub>10</sub>a<sub>11</sub>a<sub>12</sub>.
 
@@ -127,13 +127,13 @@ a<sub>10</sub> = |a<sub>1</sub>-a<sub>2</sub>+a<sub>3</sub>-a<sub>4</sub>+a<sub>
 |Y|8|
 |Z|9|
 
-## Examples:
+## Examples
 |Driver Information|License Number|
 |---|---|
 |Joseph Marshall Pollan: October 19, 1970|POLLAJM304PR|
 |Tracy Holland: April 25, 1945|HOLLAT*554J5|
 |Alexander William Moe: July 4, 1976|MOE**AW240MD|
 	
-## The Key:
+## The Key
 https://github.com/j-f-zhang/dln-encoder-key
 
