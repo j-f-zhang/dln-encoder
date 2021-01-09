@@ -134,6 +134,6 @@ a<sub>10</sub> = |a<sub>1</sub>-a<sub>2</sub>+a<sub>3</sub>-a<sub>4</sub>+a<sub>
 |Tracy Holland: April 25, 1945|HOLLAT*554J5|
 |Alexander William Moe: July 4, 1976|MOE**AW240MD|
 	
- 
-
+## The Key:
+https://github.com/j-f-zhang/dln-encoder-key
 
